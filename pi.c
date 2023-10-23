@@ -7,7 +7,7 @@
 
 int main() {
 
-  int r = 10000000;
+  int r = 1000000;
   float x;
   float y;
   float dentro, fora = 0;
@@ -33,6 +33,6 @@ int main() {
   printf("%f", pi);
   fprintf(gnuplot, "e\n");
   fflush(gnuplot);
-  sleep(100);
+  sleep(60);
   return 0;
 }
